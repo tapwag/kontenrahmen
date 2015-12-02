@@ -97,6 +97,19 @@ insert into chart (accno,description,charttype,gifi_accno,category,link) values 
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('3970','Sonstige Rückstellungen für Aufwendungen','A','A0','A','');
 
 
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4010','Anleihen','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4200','Kurzfristige Bankverbindlichkeiten','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4250','Langfristige Bankverbindlichkeiten','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4300','Erhaltene Bezahlungen für Bestellungen','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4400','Verbindlichkeiten aus Lieferungen und Leistungen','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4500','Schuldwechsel','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4800','Umsatzsteuer','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4830','Sonstige Verbindlichkeiten gegenüber Finanzbehörden','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4850','Verbindlichkeiten gegenüber Mitarbeitern','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4860','Verbindlichkeiten aus vermögenswirksamen Leistungen','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4870','Verbindlichkeiten gegenüber Gesellschaftern','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4890','Übrige sonstige Verbindlichkeiten','A','A0','A','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('4900','Passive Rechnungsabgrenzung','A','A0','A','');
 
 -- A1-1
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1100','WARENBESTAND','H','A1-1','A','');
