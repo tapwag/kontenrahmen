@@ -1,6 +1,7 @@
 -- GERMAN Service Company COA
--- based on US_Service_Company modified by info@linuxandlanguages.com
---
+-- based on US_Service_Company modified by Maik Wagner - info@linuxandlanguages.com
+-- Please put this .sql file in your sql directory of your SQL Ledger instance and create a company from admin.pl
+
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1000','AKTIVA','H','','A','');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1060','Bankkonte','A','','A','AR_paid:AP_paid');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1065','Barkasse','A','','A','AR_paid:AP_paid');
@@ -51,9 +52,9 @@ insert into chart (accno,description,charttype,gifi_accno,category,link) values 
 --
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2110','Angesammelte Einkommenssteuer - Bundesland','A','','L','');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2120','Angesammelte Einkommenssteuer - Staat','A','','L','');
-insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2130','Angesammelte Steuer Franchis','A','','L','');
-insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2140','Angesammelte Land und Eigentumssteuer','A','','L','');
-insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2150','Vertriebssteur','A','','L','AR_tax:AP_tax:IC_taxpart:IC_taxservice');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2130','Angesammelte Steuer Franchise','A','','L','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2140','Angesammelte Land- und Eigentumssteuer','A','','L','');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2150','Vertriebssteuer','A','','L','AR_tax:AP_tax:IC_taxpart:IC_taxservice');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('2210','Angesammelte Gehaelter','A','','L','');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('5510','Einkommenssteueraufwendungen - Bundesland','A','','E','');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('5520','Einkommenssteueraufwendungen - Staat','A','','E','');
