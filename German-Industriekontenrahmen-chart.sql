@@ -286,7 +286,6 @@ insert into chart (accno,description,charttype,gifi_accno,category,link) values 
 --
 insert into tax (chart_id,rate) values ((select id from chart where accno = '3801'),0.07);
 insert into tax (chart_id,rate) values ((select id from chart where accno = '3805'),0.19);
-insert into tax (chart_id,rate) values ((select id from chart where accno = '3806'),0.15);
 --
 INSERT INTO defaults (fldname, fldvalue) VALUES ('inventory_accno_id', (SELECT id FROM chart WHERE accno = '1140'));
 INSERT INTO defaults (fldname, fldvalue) VALUES ('income_accno_id', (SELECT id FROM chart WHERE accno = '8120'));
