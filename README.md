@@ -4,7 +4,7 @@ This repository contains some charts of accounts which can be used for SQL Ledge
 
 There is a chart of accounts of the German "Industriekontenrahmen" which (theoretically) enables SQL Ledger to be used in schools who teach accounting or bookeeping.
 
-#To Do / Projects to come:
+'''To Do / Projects to come'''
 
 SQL Ledger already supports the German Standard Kontenrahmen (SKR03) out of the box when creating a new tenant in version 3.0 but this chart of accounts is fairly old and would need to be checked and (most likely) updated.
 
