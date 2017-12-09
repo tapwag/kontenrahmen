@@ -3,7 +3,7 @@
 -- Please put this .sql file in your sql directory of your SQL Ledger instance and create a company from admin.pl
 
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1000','AKTIVA','H','','A','');
-insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1060','Bankkonte','A','','A','AR_paid:AP_paid');
+insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1060','Bankkonto','A','','A','AR_paid:AP_paid');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1065','Barkasse','A','','A','AR_paid:AP_paid');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1200','Debitoren','A','','A','AR');
 insert into chart (accno,description,charttype,gifi_accno,category,link) values ('1205','Rueckstellung fuer zweifelhafte Konten','A','','A','');
